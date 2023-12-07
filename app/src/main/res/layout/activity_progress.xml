@@ -4,6 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FEFEFE"
     tools:context=".ActivityProgress">
+
+    <ImageView
+        android:id="@+id/iHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/iFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/footer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/iLogo"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintBottom_toTopOf="@id/tV41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hidrologo" />
+
+    <TextView
+        android:id="@+id/tV41"
+        style="@style/style_tittle"
+        android:text="@string/progress1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iLogo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cV4"
+        style="@style/style_cardView"
+        app:layout_constraintTop_toBottomOf="@id/tV41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn41">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250sp"
+            android:layout_height="250sp"
+            android:layout_gravity="center_horizontal"
+            android:src="@tools:sample/avatars"
+            app:srcCompat="@drawable/progress" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn41"
+        style="@style/style_button"
+        android:layout_marginTop="30sp"
+        android:text="@string/back"
+        app:layout_constraintTop_toBottomOf="@+id/cV4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

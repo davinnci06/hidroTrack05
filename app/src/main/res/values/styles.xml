@@ -26,4 +26,21 @@
         <item name="android:backgroundTint">@color/miAzul</item>
         <item name="android:ems">9</item>
     </style>
+    <style name="style_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/bigshot_one</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">20sp</item>
+    </style>
+    <style name="style_cardView">
+        <item name="android:layout_width">300sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardBackgroundColor">@color/miVerde</item>
+        <item name="cardElevation">50sp</item>
+        <item name="cardCornerRadius">20sp</item>
+    </style>
 </resources>

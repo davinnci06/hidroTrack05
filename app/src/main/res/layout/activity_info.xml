@@ -4,6 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FEFEFE"
     tools:context=".ActivityInfo">
+
+    <ImageView
+        android:id="@+id/iHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/iFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/footer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/iLogo"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintBottom_toTopOf="@id/tV51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hidrologo" />
+
+    <TextView
+        android:id="@+id/tV51"
+        style="@style/style_tittle"
+        android:text="@string/info5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iLogo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cV5"
+        style="@style/style_cardView"
+        android:layout_height="300sp"
+        app:layout_constraintTop_toBottomOf="@id/tV51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn31">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tV52"
+                    style="@style/style_text"
+                    android:text="@string/tip1" />
+
+                <TextView
+                    android:id="@+id/tV53"
+                    style="@style/style_text"
+                    android:text="@string/tip2" />
+
+                <TextView
+                    android:id="@+id/tV54"
+                    style="@style/style_text"
+                    android:text="@string/tip3" />
+
+                <TextView
+                    android:id="@+id/tV55"
+                    style="@style/style_text"
+                    android:text="@string/tip4" />
+
+                <TextView
+                    android:id="@+id/tV56"
+                    style="@style/style_text"
+                    android:text="@string/tip5" />
+
+                <TextView
+                    android:id="@+id/tV57"
+                    style="@style/style_text"
+                    android:text="@string/tip6" />
+
+                <TextView
+                    android:id="@+id/tV58"
+                    style="@style/style_text"
+                    android:text="@string/tip7" />
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn31"
+        style="@style/style_button"
+        android:layout_marginTop="30sp"
+        android:text="@string/back"
+        app:layout_constraintTop_toBottomOf="@+id/cV5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

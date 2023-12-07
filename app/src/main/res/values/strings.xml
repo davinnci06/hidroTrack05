@@ -6,8 +6,18 @@
     <string name="progress">Progreso</string>
     <string name="info">Información</string>
     <string name="settings">Configuración</string>
-    <string name="consumption2">Consumo de Agua</string>
+    <string name="consumption2">Consejos para reducir el consumo de Agua</string>
     <string name="type2">Escriba su consumo</string>
     <string name="save">Guardar</string>
     <string name="back">Regresar</string>
+    <string name="tip">Cierra la llave del agua mientras te cepillas los dientes; de esta manera, una familia de cinco personas puede ahorrar hasta 40 litros de agua al día.</string>
+    <string name="progress1">Seguimiento y Progreso</string>
+    <string name="info5">Información sobre la Conservación del Agua</string>
+    <string name="tip1">1. Instala un aireador WaterSense en el grifo de la cocina para reducir el flujo a menos de 1 galón por minuto, una solución económica.</string>
+    <string name="tip2">2. Ajusta el nivel del agua de la piscina para disminuir las salpicaduras y utiliza una cubierta para prevenir la evaporación cuando no esté en uso.</string>
+    <string name="tip3">3. Opta por duchas en lugar de baños para un uso más eficiente del agua.</string>
+    <string name="tip4">4. Apaga el grifo mientras no lo uses al lavar platos o cepillarte los dientes.</string>
+    <string name="tip5">5. Llena el lavabo al lavar frutas, verduras o platos en lugar de dejar correr el agua.</string>
+    <string name="tip6">6. Asegúrate de que tu lavavajillas esté lleno antes de hacer funcionar una carga para maximizar la eficiencia.</string>
+    <string name="tip7">7. Utiliza productos WaterSense etiquetados para garantizar eficiencia en el uso del agua y la energía.</string>
 </resources>
