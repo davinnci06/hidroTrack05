@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/bigshot_one</item>
+        <item name="android:backgroundTint">@color/miAzul</item>
+        <item name="android:ems">9</item>
+    </style>
+    <style name="style_tittle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/miAzul</item>
+        <item name="android:fontFamily">@font/akaya_telivigala</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="style_editText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48sp</item>
+        <item name="android:fontFamily">@font/bigshot_one</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:backgroundTint">@color/miAzul</item>
+        <item name="android:ems">9</item>
+    </style>
+</resources>

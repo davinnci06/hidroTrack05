@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HidroTrack-05</string>
+    <string name="welcome">¡Bienvenidos a HidroTrack!</string>
+    <string name="consumption">Consumo</string>
+    <string name="tips">Consejos</string>
+    <string name="progress">Progreso</string>
+    <string name="info">Información</string>
+    <string name="settings">Configuración</string>
+    <string name="consumption2">Consumo de Agua</string>
+    <string name="type2">Escriba su consumo</string>
+    <string name="save">Guardar</string>
+    <string name="back">Regresar</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/iFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/footer" />
+
+    <ImageView
+        android:id="@+id/iLogo"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintBottom_toTopOf="@id/tV1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hidrologo" />
+
+    <TextView
+        android:id="@+id/tV1"
+        style="@style/style_tittle"
+        android:text="@string/welcome"
+        app:layout_constraintBottom_toTopOf="@id/btn12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iLogo" />
+
+    <Button
+        android:id="@+id/btn12"
+        style="@style/style_button"
+        android:layout_marginTop="50sp"
+        android:text="@string/consumption"
+        app:layout_constraintBottom_toTopOf="@id/btn13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV1" />
+
+    <Button
+        android:id="@+id/btn13"
+        style="@style/style_button"
+        android:layout_marginTop="30sp"
+        android:text="@string/tips"
+        app:layout_constraintBottom_toTopOf="@id/btn14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn12" />
+
+    <Button
+        android:id="@+id/btn14"
+        style="@style/style_button"
+        android:layout_marginTop="30sp"
+        android:text="@string/progress"
+        app:layout_constraintBottom_toTopOf="@id/btn15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn13" />
+
+    <Button
+        android:id="@+id/btn15"
+        style="@style/style_button"
+        android:layout_marginTop="30sp"
+        android:text="@string/info"
+        app:layout_constraintBottom_toTopOf="@+id/btn16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn14" />
+
+    <Button
+        android:id="@+id/btn16"
+        style="@style/style_button"
+        android:layout_marginTop="30sp"
+        android:text="@string/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
