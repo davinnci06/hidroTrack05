@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@id/tV51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btn31">
+        app:layout_constraintBottom_toTopOf="@id/btn51">
 
         <ScrollView
             android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btn31"
+        android:id="@+id/btn51"
         style="@style/style_button"
         android:layout_marginTop="30sp"
         android:text="@string/back"
